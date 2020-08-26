@@ -1,0 +1,58 @@
+.xmw-title{
+    font-family: makahttpsfontmakaimmakafont5218732TE301KO5W52187321581054148155-z0lop4ttf;
+    color: rgb(51, 51, 51);
+    text-align: center;
+    font-weight: normal;
+    text-decoration: none;
+    font-style: normal;
+    overflow-wrap: break-word;
+    white-space: pre-wrap;
+    font-size: 23px;
+    letter-spacing: 0px;
+    display: block;
+    animation: 400ms linear 600ms 1 normal both running fadeIn;
+}
+.xmw-left{
+    width: 56.3114px;
+    height: 84.8425px;
+    left: 67.2092px;
+    top: 344.81px;
+    position: absolute;
+    opacity: 1;
+    transform: rotate(0deg);
+    cursor: pointer;
+}
+.xmw{
+    width: 90.5491px;
+    height: 90.5491px;
+    left: 142.225px;
+    top: 344.253px;
+    position: absolute;
+    opacity: 1;
+    transform: rotate(0deg);
+    cursor: pointer;
+}
+.xmw-right{
+    width: 83.3472px;
+    height: 95.0159px;
+    left: 232.775px;
+    top: 334.636px;
+    position: absolute;
+    opacity: 1;
+    transform: rotate(0deg);
+    cursor: pointer;
+}
+.xmw-btn{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    border-radius: 0px;
+    box-shadow: black 0px 0px 0px;
+    background-image: url(https://img1.maka.im/user/9784633/images/a80600a….png?x-oss-process=image/crop,x_0,y_0,w_490,h_88/auto-orient,1/format,webp/quality,Q_100);
+    background-repeat: no-repeat;
+    background-size: 243.75px 43.7755px;
+    background-position: center center;
+    display: block;
+    animation: 1000ms linear 200ms infinite normal both running fade;
+}
