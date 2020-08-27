@@ -29,7 +29,7 @@
     display: inline-block; 
 }
 .xmw-bg{
-    background-image: url(images/small-bg.webp);
+    background:url(../images/small-bg.webp) no-repeat left top;
 }
 .xmw-btn{
     position: absolute;
@@ -44,4 +44,65 @@
     background-position: center center;
     display: block;
     animation: 1000ms linear 200ms infinite normal both running fade;
+}
+
+/*********** second *********/
+.second-bg{
+    width:100%;
+    height:100%;
+    padding: 0 30px;
+    background:url(../images/small-bg.webp) no-repeat left top;
+    /* background:url(upload/bg.jpg) no-repeat left top; */
+    background-size:100% 100%;
+}
+.second-title{
+    font-family: makahttpsfontmakaimmakafont5218732TE301KO5W52187321581054148155-z0lop4ttf;
+    width: 100%;
+    height: 100%;
+    color: rgb(51, 51, 51);
+    text-align: center;
+    font-weight: normal;
+    text-decoration: none;
+    line-height: 1.5;
+    font-style: normal;
+    overflow-wrap: break-word;
+    white-space: pre-wrap;
+    font-size: 28px;
+    letter-spacing: 0px;
+    display: block;
+    animation: 600ms linear 400ms 1 normal both running fadeIn;
+}
+.second-title-p{
+    font-family: makahttpsfontmakaimmakafont5218732TE301KO5W52187321581054148155-z0lop4ttf;
+    width: 100%;
+    height: 100%;
+    color: rgb(102, 102, 102);
+    text-align: center;
+    font-weight: normal;
+    text-decoration: none;
+    line-height: 1.8;
+    font-style: normal;
+    overflow-wrap: break-word;
+    white-space: pre-wrap;
+    font-size: 18px;
+    letter-spacing: 0px;
+    display: block;
+    animation: 600ms linear 400ms 1 normal both running fadeIn;
+}
+.second-title-p2{
+    font-family: makahttpsfontmakaimmakafont5218732TE301KO5W52187321581054148155-z0lop4ttf;
+    width: 100%;
+    height: 100%;
+    color: rgb(51, 51, 51);
+    text-align: left;
+    font-weight: normal;
+    text-decoration: none;
+    line-height: 1.8;
+    font-style: normal;
+    overflow-wrap: break-word;
+    white-space: pre-wrap;
+    font-size: 17px;
+    letter-spacing: 0px;
+    display: block;
+    animation: 600ms linear 400ms 1 normal both running fadeIn;
 }
