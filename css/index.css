@@ -7,7 +7,7 @@
     font-style: normal;
     overflow-wrap: break-word;
     white-space: pre-wrap;
-    font-size: 23px;
+    font-size: 28px;
     letter-spacing: 0px;
     display: block;
     animation: 400ms linear 600ms 1 normal both running fadeIn;
@@ -16,7 +16,7 @@
     width: 56px;
     height: 84px;
     display: inline-block;
-    
+    margin-right:15px ;
 }
 .xmw{
     width: 90px;
@@ -31,14 +31,16 @@
 .xmw-bg{
     background:url(../images/small-bg.webp) no-repeat left top;
 }
-.xmw-btn{
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-    border-radius: 0px;
-    box-shadow: black 0px 0px 0px;
-    background-image: url(https://img1.maka.im/user/9784633/images/a80600a….png?x-oss-process=image/crop,x_0,y_0,w_490,h_88/auto-orient,1/format,webp/quality,Q_100);
+.jiefen{
+    width: 243.75px;
+    margin: 0 auto;
+    background-color: transparent;
+    border:0;
+    color:black;
+    /* box-shadow: black 0px 0px 0px; */
+    box-shadow: none;
+    background-image: url(../images/xmwbtn-bg.webp);
+    /* background-image: url(https://img1.maka.im/user/9784633/images/a80600a….png?x-oss-process=image/crop,x_0,y_0,w_490,h_88/auto-orient,1/format,webp/quality,Q_100); */
     background-repeat: no-repeat;
     background-size: 243.75px 43.7755px;
     background-position: center center;
@@ -105,4 +107,18 @@
     letter-spacing: 0px;
     display: block;
     animation: 600ms linear 400ms 1 normal both running fadeIn;
+}
+
+
+/***************  form  *******************/
+.form-bg{
+    width:80%;
+    height:100%;
+    margin: 0 auto;
+    padding: 0 30px;
+    background: white;
+}
+.jumbotron{
+    padding: 0;
+    background: white;
 }

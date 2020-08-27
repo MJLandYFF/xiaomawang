@@ -18,10 +18,13 @@
   font-family: "Microsoft YaHei", Arial, Helvetica, sans-serif, "\5B8B\4F53";
 }
 html,body{
-	height:100%;
-}git push -u origin master
+  height:100%;
+  max-width: 1024px;
+  margin: 0 auto;
+}
 body{
-	font-family:"microsoft yahei";
+  font-family:"microsoft yahei";
+  max-width: 1024px;
 }
 .swiper-container {
   /*  width: 320px;
@@ -75,23 +78,27 @@ opacity: 1;
 <div class="swiper-container">
     <div class="swiper-wrapper">
       <section class="swiper-slide">
-        <div class="xmw-bg" style="width: 80%; height: 100%; display:table;margin-left: auto;margin-right: auto;">
-          <span class="xmw-title middle">小码王</span>
-          <span class="xmw-title middle">2020年新冠状病毒防治</span>
-          <span class="xmw-title middle">趣味古诗文大赛</span>
-          <p class="xmw-title" style="line-height: 1.8;font-size: 15px;">---全国卷---</p>
-          <div class="xmw-title" style="line-height: 1.8;font-size: 14px;">监考单位：小码家长俱乐部</div>
-          <div class="xmw-title" style="line-height: 1.8;font-size: 14px;">欢迎扫码关注我们</div>
+        <div class="xmw-bg" style="width:80%;height: 100%; display:table;margin-left: auto;margin-right: auto; position: relative;">
+          <div style="height: 100px;">
+            <div class="dl-left">
+              <img src="images/denglong-left.webp" alt="" srcset="" style="width: 95px; position:absolute;left: -10px; opacity: 0.7;">
+            </div>
+            <div class="dl-right">
+              <img src="images/denglong-right.webp" alt="" srcset="" style="width: 95px;position:absolute;right: -10px; opacity: 0.7;">
+            </div>
+          </div>
+          <span class="xmw-title middle">小码王</span><br>
+          <span class="xmw-title middle">2020年新冠状病毒防治</span><br>
+          <span class="xmw-title middle">趣味古诗文大赛</span><br>
+          <p class="xmw-title" style="line-height: 1.8;font-size: 18px;">---全国卷---</p><br>
+          <div class="xmw-title" style="line-height: 1.8;font-size: 17px;">监考单位：小码家长俱乐部</div>
+          <div class="xmw-title" style="line-height: 1.8;font-size: 17px;">欢迎扫码关注我们</div><br>
           <div class="middle">
             <img src="images/xmw-left.webp" class="xmw-left" swiper-animate-effect="fadeIn" swiper-animate-duration="0.5s" swiper-animate-delay="1.5s"  > 
             <img src="images/xmw.webp" class="xmw" swiper-animate-effect="fadeIn" swiper-animate-duration="0.5s" swiper-animate-delay="1.5s"  >
             <img src="images/xmw-right.webp" class="xmw-right" swiper-animate-effect="fadeIn" swiper-animate-duration="0.5s" swiper-animate-delay="1.5s"  > 
-          </div>
-          <div style="width: 243.75px; height: 43.7755px; left: 64.2795px; top: 451.241px; position: absolute; opacity: 1; transform: rotate(0deg); cursor: pointer;">
-            <div class="animated fade xmw-btn">
-              <img src="images/xmwbtn-bg.webp" alt="" style="opacity: 0;">
-            </div>
-          </div>
+          </div><br>
+          <button type="button" class="btn btn-lg btn-block jiefen">解封试卷</button>
         </div>
         
         
@@ -107,9 +114,9 @@ opacity: 1;
             <span class="xmw-title middle" style="padding-top: 50px;padding-bottom:10px;">2020年新冠状病毒防治</span>
             <span class="xmw-title middle" style="padding-bottom:10px;">趣味古诗文大赛</span>
             <p class="xmw-title" style="line-height: 1.8;font-size: 18px;">---全国卷---</p>
-            <div class="xmw-title" style="line-height: 1.8;font-size: 17px;text-align: left;">本试卷需回答10个问题，考试时间10分钟，</div>
-            <div class="xmw-title" style="line-height: 1.8;font-size: 17px;color: rgb(51, 51, 51);text-align: left;">满分100分</div>
-            <span class="xmw-title middle">注意事项</span>
+            <div class="xmw-title middle" style="line-height: 1.8;font-size: 17px;text-align: left;color: rgb(51, 51, 51)">本试卷需回答10个问题，考试时间10分钟，满分100分</div><br>
+            
+            <span class="xmw-title middle">注意事项</span><br>
             <div class="xmw-title" style="line-height: 1.8;font-size: 17px;color: rgb(51, 51, 51);">1.本次考试关乎您和身边的人健康和安全，请认真答题。</div><br><br>
             <div class="xmw-title" style="line-height: 1.8;font-size: 17px;color: rgb(51, 51, 51);">2.考试为开卷考试，有部分成语为谐音成语，成语新解，鼓励并欢迎一切开脑洞的行为探索正确答案。</div><br><br>
             <div class="xmw-title" style="line-height: 1.8;font-size: 17px;color: rgb(51, 51, 51);">3.考试结束后，将试卷统一提交并计算分数，鼓励一切转发朋友圈行为。</div><br>
@@ -146,15 +153,16 @@ opacity: 1;
         </section>
         
         <section class="swiper-slide" >
-          <div class="">
+          <div class="form-bg">
             <div class="jumbotron">
-              <h1>谢谢参与</h1>
+              <img src="images/form-top.webp" alt="" srcset="" style="margin: 0 auto;width: 100%;">
+              <h3>谢谢参与</h3>
               <p>感谢您能抽出几分钟时间来参加本次答题，青填写您的联系信息方便我们后期联系。</p>
             </div>
             <div class="input-group">
               <span class="input-group-addon" id="basic-addon1">学生姓名</span>
               <input type="text" class="form-control" placeholder="" aria-describedby="basic-addon1">
-            </div>
+            </div><br>
             <div class="input-group">
               <span class="input-group-addon" id="basic-addon1">选择年级</span>
               <select class="form-control" onchange="selectOnchang(this)">
@@ -172,11 +180,11 @@ opacity: 1;
                 <option value="">高二</option>
                 <option value="">高三</option>
               </select>
-            </div>
+            </div><br>
             <div class="input-group">
               <span class="input-group-addon" id="basic-addon1">学校信息</span>
               <input type="text" class="form-control" placeholder="" aria-describedby="basic-addon1">
-            </div>
+            </div><br>
             <div class="input-group">
               <span class="input-group-addon" id="basic-addon1">选择校区</span>
               <select class="form-control" onchange="selectOnchang(this)">
@@ -199,15 +207,23 @@ opacity: 1;
                 <option value="">浦东新区</option>
                 <option value="">其他区</option>
               </select>
-            </div>
+            </div><br>
             <div class="input-group">
               <span class="input-group-addon" id="basic-addon1">电话号码</span>
               <input type="text" class="form-control" placeholder="" aria-describedby="basic-addon1">
-            </div>
+            </div><br>
             <div class="input-group">
-              <span class="input-group-addon" id="basic-addon1">短信验证</span>
-              <input type="text" class="form-control" placeholder="" aria-describedby="basic-addon1">
-            </div>
+              <span class="input-group-addon" id="basic-addon1">手机验证</span>
+              <div class="row">
+                <div class="col-md-4">
+                  <input type="text" class="form-control" placeholder="" aria-describedby="basic-addon1">
+                </div>
+                <div class="col-md-3">
+                  <button type="button" class="btn btn-primary">获取验证码</button>
+                </div>
+              </div>
+              
+            </div><br>
             <button type="button" class="btn btn-primary btn-block">提交</button>
             
           </div>
