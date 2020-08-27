@@ -13,34 +13,23 @@
     animation: 400ms linear 600ms 1 normal both running fadeIn;
 }
 .xmw-left{
-    width: 56.3114px;
-    height: 84.8425px;
-    left: 67.2092px;
-    top: 344.81px;
-    position: absolute;
-    opacity: 1;
-    transform: rotate(0deg);
-    cursor: pointer;
+    width: 56px;
+    height: 84px;
+    display: inline-block;
+    
 }
 .xmw{
-    width: 90.5491px;
-    height: 90.5491px;
-    left: 142.225px;
-    top: 344.253px;
-    position: absolute;
-    opacity: 1;
-    transform: rotate(0deg);
-    cursor: pointer;
+    width: 90px;
+    height: 90px;
+    display: inline-block;
 }
 .xmw-right{
-    width: 83.3472px;
-    height: 95.0159px;
-    left: 232.775px;
-    top: 334.636px;
-    position: absolute;
-    opacity: 1;
-    transform: rotate(0deg);
-    cursor: pointer;
+    width: 83px;
+    height: 95px; 
+    display: inline-block; 
+}
+.xmw-bg{
+    background-image: url(images/small-bg.webp);
 }
 .xmw-btn{
     position: absolute;
